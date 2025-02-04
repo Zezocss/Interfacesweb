@@ -1,0 +1,43 @@
+.user-list {
+  margin-top: 2rem;
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px;
+}
+
+.user-list th, .user-list td {
+  border: 1px solid rgba(55, 65, 81, 1);
+  padding: 0.75rem;
+  text-align: left;
+  color: rgba(243, 244, 246, 1);
+}
+
+.user-list th {
+  background-color: rgba(31, 41, 55, 1);
+}
+
+.user-list tr:nth-child(even) {
+  background-color: rgba(17, 24, 39, 1);
+}
+
+.user-list tr:hover {
+  background-color: rgba(55, 65, 81, 1);
+}
+
+.delete-button {
+  background-color: rgba(220, 38, 38, 1);
+  color: rgba(243, 244, 246, 1);
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: rgba(185, 28, 28, 1);
+}
+
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+}

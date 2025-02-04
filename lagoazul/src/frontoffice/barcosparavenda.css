@@ -1,0 +1,61 @@
+.container {
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.mosaic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}

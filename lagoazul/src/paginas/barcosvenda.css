@@ -1,0 +1,53 @@
+.container {
+    padding: 20px;
+    width: 100%; 
+    box-sizing: border-box; 
+    margin: 20px auto; 
+    min-width: 320px; 
+    color: white;
+}
+
+.barcos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.barco-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(70% - 50px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+    .barco-item {
+        width: calc(100% - 50px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .barco-item {
+        width: calc(100% - 50px); 
+    }
+}
+
+.barco-item img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.barco-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.barco-item p {
+    margin: 5px 0;
+    color: #666;
+}
